@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="lab_name">Основной текст</string>
+    <string name="red_text">Красный</string>
+    <string name="blue_text">Синий</string>
+    <string name="green_text">Зеленый</string>
+    <string name="yellow_text">Желтый</string>
+    <string name="text_text">Нажмите цветную кнопку</string>
     <string name="btn_name1">Кнопка 1</string>
     <string name="btn_name2">Кнопка 2</string>
 </resources>

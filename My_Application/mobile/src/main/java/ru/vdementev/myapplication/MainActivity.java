@@ -8,21 +8,39 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    private TextView textView;
+    private TextView text;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainlayout);
+        setContentView(R.layout.layout);
 
-        textView  = (TextView) findViewById(R.id.textView);
+        text  = (TextView) findViewById(R.id.text_text);
     }
 
-    public void sayHello(View view){
+    public void sayRed(View view){
 
-        textView.setText("Новое значение 1");
-
+        text.setText("Теперь тут краснота");
+        text.setTextColor(0xFFFF0000);
     }
 
+    public void sayBlue(View view){
+
+        text.setText("Теперь все Синее");
+        text.setTextColor(0xFF0000FF);
+    }
+
+    public void sayGreen(View view){
+
+        text.setText("Теперь тут Зелень");
+        text.setTextColor(0xFF00FF00);
+    }
+
+
+    public void sayYellow(View view){
+
+        text.setText("Теперь тут Желтизна");
+        text.setTextColor(0xFFFFFF00);
+    }
 }
